@@ -1,0 +1,109 @@
+*{
+    font-family: "Edo Sz";
+    --dark-bg-color: rgb(29, 29, 29);
+    
+    --primary-light-bg-color: #343946;
+    --secondary-light-bg-color: #3e415e;
+    --accent-color:rgb(109, 194, 187);
+
+    
+    --white-font: #FAFAFA;
+    --black-font: black;
+
+    transition: all 0.2s ease-in-out;
+}
+
+body{
+    height: 100vh;
+    width: auto;
+    background-color: var(--primary-light-bg-color);
+    margin:0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+#intro{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin-bottom: 2rem;
+}
+.logo{
+    display: grid;
+    grid-template-columns: 1.1fr 1fr;
+    align-items: center;
+    justify-items: center;
+    
+}
+.img-logo{
+    height: 15rem;
+    width: auto;
+}
+
+
+h1{
+    font-size: 3em;
+    color: #FAFAFA;
+}
+h1 span{
+    font-size: .7em;
+    font-family:"Roboto";
+}
+h2{
+    color: #FAFAFA;
+    text-shadow:
+      0 0 42px #0fa,
+      0 0 82px #0fa,
+      0 0 151px #0fa;
+}
+button{
+    all: unset;
+    cursor: pointer;
+}
+
+/*MAIN SECTION*/
+#main{
+    background-color: var(--primary-light-bg-color);
+    display: none;
+    height: 50vh;
+}
+
+.btnReset{
+    display: none;
+    font-size: 5em;
+    color: #fafafa;
+    text-shadow:
+      0 0 42px #0fa,
+      0 0 82px #0fa,
+      0 0 151px #0fa;
+    border-radius: 150px;
+    padding: 1rem;
+}
+
+.board{
+    display: grid;
+    grid-template-columns: auto auto 1fr;
+    grid-template-rows: auto auto 1fr;
+}
+.cell{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FAFAFA;
+    height: 15vh;
+    width: 15vh;
+    cursor: pointer;
+    border: 2px solid rgb(255, 255, 255);
+    font-size: 5em;
+}
+
+#result{
+    margin-bottom: 2rem;
+}
+
