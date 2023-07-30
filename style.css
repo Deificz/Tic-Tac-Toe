@@ -1,3 +1,7 @@
+@font-face{
+    font-family: "Edo Sz";
+    src: url(font/edosz.ttf);
+}
 *{
     font-family: "Edo Sz";
     --dark-bg-color: rgb(29, 29, 29);
