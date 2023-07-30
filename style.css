@@ -1,6 +1,6 @@
 @font-face{
     font-family: "Edo Sz";
-    src: url(font/edosz.ttf);
+    src: url(font/edosz.ttf) format('truetype');
 }
 *{
     font-family: "Edo Sz";
