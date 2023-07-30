@@ -107,3 +107,10 @@ button{
     margin-bottom: 2rem;
 }
 
+#result > h1{
+    text-shadow:
+    0 0 42px rgb(67, 172, 137),
+    0 0 82px rgb(85, 153, 130),
+    0 0 151px rgb(50, 143, 112);
+}
+
