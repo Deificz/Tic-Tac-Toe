@@ -10,3 +10,5 @@ Tech stack used:
   - CSS
   - Vanilla JavaScript
 
+**Live preview:** https://deificz.github.io/Tic-Tac-Toe/
+
