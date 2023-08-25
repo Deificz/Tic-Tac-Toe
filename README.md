@@ -1,8 +1,13 @@
 # Tic-Tac-Toe
-A web based game called Tic Tac Toe created using HTML, CSS, and Javascript
+A web based game called Tic Tac Toe.
 
-Note: 
-- Built by following numerous guides online (for back-end) and integrated my own designs 
+Tech stack used:
+
+  -  HTML
+  -  CSS
+  -  Vanilla JavaScript
 
 - Currently available for Player vs Player only
+
+**Live preview:** https://deificz.github.io/Tic-Tac-Toe/
 
